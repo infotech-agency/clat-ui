@@ -1,0 +1,90 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 230 30% 14%;
+    --card: 0 0% 100%;
+    --card-foreground: 230 30% 14%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 230 30% 14%;
+    --primary: 222 55% 20%;
+    --primary-foreground: 0 0% 100%;
+    --secondary: 218 52% 95%;
+    --secondary-foreground: 222 55% 20%;
+    --muted: 218 52% 95%;
+    --muted-foreground: 220 18% 46%;
+    --accent: 38 92% 55%;
+    --accent-foreground: 222 55% 20%;
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 220 20% 90%;
+    --input: 220 20% 90%;
+    --ring: 222 55% 20%;
+    --radius: 0.75rem;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground font-sans antialiased;
+    font-feature-settings: 'cv11', 'ss01';
+  }
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-heading;
+  }
+}
+
+@layer components {
+  .section-kicker {
+    @apply inline-block text-xs font-heading font-semibold uppercase tracking-[0.2em] text-orange-dark;
+  }
+  .section-title {
+    @apply font-heading font-bold text-navy text-3xl md:text-4xl leading-tight;
+  }
+  .section-underline {
+    @apply block w-16 h-1 bg-orange rounded-full mt-3;
+  }
+  .btn-orange {
+    @apply inline-flex items-center justify-center rounded-lg bg-orange text-navy font-heading font-semibold px-6 py-3 transition-all hover:bg-orange-dark hover:text-white hover:shadow-lg hover:-translate-y-0.5;
+  }
+  .btn-orange-outline {
+    @apply inline-flex items-center justify-center rounded-lg border-2 border-orange text-orange-dark font-heading font-semibold px-6 py-3 transition-all hover:bg-orange hover:text-navy;
+  }
+  .btn-navy {
+    @apply inline-flex items-center justify-center rounded-lg bg-navy text-white font-heading font-semibold px-6 py-3 transition-all hover:bg-navy-light hover:shadow-lg hover:-translate-y-0.5;
+  }
+  .card-accent {
+    @apply relative bg-white rounded-2xl border border-border shadow-sm transition-all hover:shadow-xl hover:-translate-y-1;
+  }
+  .card-accent::before {
+    @apply content-[''] absolute top-0 left-0 right-0 h-1.5 rounded-t-2xl bg-orange;
+  }
+  .card-accent-navy::before {
+    @apply bg-navy;
+  }
+  .prose-clat {
+    @apply prose prose-lg max-w-none prose-headings:font-heading prose-headings:text-navy prose-a:text-orange-dark prose-strong:text-navy prose-li:my-1 prose-img:rounded-xl;
+  }
+  .nav-link {
+    @apply text-sm font-heading font-medium text-navy/80 hover:text-orange-dark transition-colors px-3 py-2;
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+  .scrollbar-hide::-webkit-scrollbar {
+    display: none;
+  }
+  .scrollbar-hide {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+}
