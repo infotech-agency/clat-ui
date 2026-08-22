@@ -14,6 +14,7 @@ import { FAQSection } from '@/components/home/FAQSection';
 import { CTABanner } from '@/components/home/CTABanner';
 import { BlogPreview } from '@/components/home/BlogPreview';
 import { TilesSection } from '@/components/home/TileSection';
+import { GallerySection } from '@/components/home/GallerySection';
 
 export default function Home() {
   return (
@@ -24,6 +25,7 @@ export default function Home() {
       <ProcessSteps />
       <WhyChooseUs />
       <CoursesGrid />
+      <GallerySection/>
       <TestSeriesPricing />
       <TilesSection/>
       <FacultySection />
