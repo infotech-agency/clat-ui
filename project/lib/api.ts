@@ -263,8 +263,16 @@ export async function getPlacements(): Promise<Placement[]> {
   return response.data || [];
 }
 
+// export function getTestimonials(): Promise<Testimonial[]> {
+//   return apiFetch<Testimonial[]>('/api/testimonials/active');
+// }
+interface ApiResponse<T> {
+  success: boolean;
+  count: number;
+  data: T;
+}
 export function getTestimonials(): Promise<Testimonial[]> {
-  return apiFetch<Testimonial[]>('/api/testimonials/active');
+  return apiFetch<ApiResponse<Testimonial[]>>('/api/testimonials/active').then(r => r.data || []);
 }
 
 export function getTiles(): Promise<CourseTile[]> {

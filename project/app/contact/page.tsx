@@ -63,7 +63,8 @@ export default function ContactPage() {
                           <Phone className="h-4 w-4" /> {centre.phone}
                         </a>
                         <a
-                          href={`https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(centre.mapQuery)}`}
+                          // href={`https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(centre.mapQuery)}`}
+                          href={`${centre.mapQuery}`}
                           target="_blank"
                           rel="noopener noreferrer"
                           className="mt-3 inline-flex items-center gap-1.5 rounded-lg bg-orange px-3 py-1.5 text-xs font-heading font-semibold text-navy transition-colors hover:bg-orange-dark hover:text-white"
@@ -76,6 +77,8 @@ export default function ContactPage() {
                       <iframe
                         title={`Map of ${centre.name}`}
                         src={`https://www.google.com/maps?q=${encodeURIComponent(centre.mapQuery)}&output=embed`}
+                            // src={`${encodeURIComponent(centre.mapQuery)}&output=embed`}
+                            // src={`https://www.google.com/maps?q=${encodeURIComponent(centre.mapQuery)}&output=embed`}
                         className="h-40 w-full"
                         loading="lazy"
                       />
