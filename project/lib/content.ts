@@ -201,27 +201,50 @@ export const FACULTY = [
   },
 ];
 
+// export const TEAM_QUOTES = [
+//   {
+//     name: 'Ritesh Singh',
+//     role: 'Director, Academics',
+//     qualification: 'LL.B, Delhi University',
+//     quote:
+//       'We do not teach to a test — we build legal thinkers. Every student who walks in is trained to reason like a future lawyer, and that is what makes CLAT feel easy.',
+//   },
+//   {
+//     name: 'Priya Sharma',
+//     role: 'Faculty Lead',
+//     qualification: 'MA English, JNU',
+//     quote:
+//       'Reading is the backbone of CLAT. Our students read more, read better, and read faster — and that shows in their verbal and legal reasoning scores.',
+//   },
+//   {
+//     name: 'Amit Verma',
+//     role: 'Director, Marketing & Outreach',
+//     qualification: 'MA Pol Science',
+//     quote:
+//       'We are not a factory. We are a small, focused institute where every student is known by name and mentored personally across all three centres.',
+//   },
+// ];
 export const TEAM_QUOTES = [
   {
-    name: 'Ritesh Singh',
+    name: 'Ruchi Sud Luthra',
     role: 'Director, Academics',
-    qualification: 'LL.B, Delhi University',
-    quote:
-      'We do not teach to a test — we build legal thinkers. Every student who walks in is trained to reason like a future lawyer, and that is what makes CLAT feel easy.',
+    qualification: 'Psychology Hons., B.Ed, PG Journalism',
+    quote: 'Stay curious, stay consistent.',
+    image: '/team/ruchi.jpeg',
   },
   {
-    name: 'Priya Sharma',
-    role: 'Faculty Lead',
-    qualification: 'MA English, JNU',
-    quote:
-      'Reading is the backbone of CLAT. Our students read more, read better, and read faster — and that shows in their verbal and legal reasoning scores.',
+    name: 'Tarang Kapoor',
+    role: 'Faculty, Legal Reasoning',
+    qualification: 'BA LLB, 8 years of experience',
+    quote: 'A future lawyer reads between the line, not just the lines.',
+    image: '/team/tarang.jpeg',
   },
   {
-    name: 'Amit Verma',
-    role: 'Director, Marketing & Outreach',
-    qualification: 'MA Pol Science',
-    quote:
-      'We are not a factory. We are a small, focused institute where every student is known by name and mentored personally across all three centres.',
+    name: 'Rashi Luthra',
+    role: 'Director, Marketing',
+    qualification: 'B.Com, MBA',
+    quote: 'Everyday is a chance to grow.',
+    image: '/team/rashi.jpeg',
   },
 ];
 
