@@ -378,7 +378,7 @@ export const NAV_LINKS = [
   { label: 'Courses', href: '/courses', hasMega: true },
   // { label: 'Test Series', href: '/test-series' },
   // { label: 'Faculty', href: '/faculty' },
-  { label: 'Placements', href: '/placements' },
+  { label: 'Success Stories', href: '/placements' },
   { label: 'Blog', href: '/blog' },
   { label: 'Contact', href: '/contact' },
 ];
