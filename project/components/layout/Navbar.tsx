@@ -300,8 +300,14 @@ export function Navbar() {
       .catch(() => {});
   }, []);
 
-  const offlineCourses = courses.filter((c) => c.mode === 'offline');
-  const onlineCourses = courses.filter((c) => c.mode === 'online');
+  // const offlineCourses = courses.filter((c) => c.mode === 'offline');
+  // const onlineCourses = courses.filter((c) => c.mode === 'online');
+  const offlineCourses = courses.filter(
+  (c) => c.mode === 'offline' || c.mode === 'online-offline' || c.mode === 'hybrid'
+);
+const onlineCourses = courses.filter(
+  (c) => c.mode === 'online' || c.mode === 'online-offline' || c.mode === 'hybrid'
+);
 
   const isActive = (href: string) =>
     href === '/' ? pathname === '/' : pathname.startsWith(href);

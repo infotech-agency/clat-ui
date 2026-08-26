@@ -54,9 +54,18 @@ export function CoursesGrid() {
           duration: c.duration,
         }));
 
+  // const filtered = filter === 'all'
+  //   ? source
+  //   : source.filter((c) => c.mode === filter || c.targetClass === filter);
   const filtered = filter === 'all'
-    ? source
-    : source.filter((c) => c.mode === filter || c.targetClass === filter);
+  ? source
+  : source.filter((c) => {
+      const modeMatches =
+        c.mode === filter ||
+        (filter === 'offline' && (c.mode === 'online-offline' || c.mode === 'hybrid')) ||
+        (filter === 'online' && (c.mode === 'online-offline' || c.mode === 'hybrid'));
+      return modeMatches || c.targetClass === filter;
+    });
 
   return (
     <section className="bg-navy-50 py-16 md:py-24">
