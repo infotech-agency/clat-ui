@@ -22,7 +22,7 @@ export function WhyChooseUs() {
                 and that is what makes CLAT feel easy.&rdquo;
               </p>
               <p className="mt-3 text-sm font-semibold text-orange-dark">
-                — Ritesh Singh, Director, Academics
+                — Ritesh Singh, Advocate
               </p>
             </div>
 
