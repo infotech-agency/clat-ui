@@ -35,9 +35,10 @@ export default function Home() {
       <TestSeriesPricing />
       <TilesSection/>
       <FacultySection />
+        <TeamQuotes />
       <VideoTestimonials />
       <AlumniSection />
-      <TeamQuotes />
+    
       <CentresSection />
       <FAQSection />
       <CTABanner />

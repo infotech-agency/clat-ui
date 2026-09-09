@@ -476,8 +476,10 @@ export default async function CourseDetailPage({ params }: { params: { slug: str
               </div>
             </div>
             <div className="rounded-2xl bg-white p-6 shadow-xl">
-              <p className="text-sm text-muted-foreground">Course Fee</p>
-              <p className="font-heading font-extrabold text-3xl text-navy">₹{course.price?.toLocaleString('en-IN')}</p>
+              {/* <p className="text-sm text-muted-foreground">Course Fee</p> */}
+              <p className="font-heading font-extrabold text-3xl text-navy">
+                {course?.price.length > 0 ? `₹${course.price?.toLocaleString('en-IN')}` : ''}
+                </p>
               <div className="mt-4 border-t border-border pt-4">
                 <InquiryForm variant="sidebar" lockedCourse={course.name} compact />
               </div>
@@ -694,7 +696,7 @@ export default async function CourseDetailPage({ params }: { params: { slug: str
                     <h3 className="font-heading font-semibold text-navy group-hover:text-orange-dark transition-colors text-sm">{c.name}</h3>
                     <p className="mt-1 line-clamp-2 text-xs text-muted-foreground">{c.description}</p>
                     <div className="mt-3 flex items-center justify-between">
-                      <span className="font-heading font-bold text-navy">₹{c.price?.toLocaleString('en-IN')}</span>
+                      {/* <span className="font-heading font-bold text-navy">₹{c.price?.toLocaleString('en-IN')}</span> */}
                       <ArrowRight className="h-4 w-4 text-orange-dark transition-transform group-hover:translate-x-1" />
                     </div>
                   </div>

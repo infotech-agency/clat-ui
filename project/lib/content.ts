@@ -232,6 +232,13 @@ export const TEAM_QUOTES = [
     quote: 'Stay curious, stay consistent.',
     image: '/team/ruchi.jpeg',
   },
+   {
+    name: 'Rashi Luthra',
+    role: 'Director, Marketing',
+    qualification: 'B.Com, MBA',
+    quote: 'Everyday is a chance to grow.',
+    image: '/team/rashi.jpeg',
+  },
   {
     name: 'Tarang Kapoor',
     role: 'Faculty, Legal Reasoning',
@@ -239,13 +246,7 @@ export const TEAM_QUOTES = [
     quote: 'A future lawyer reads between the line, not just the lines.',
     image: '/team/tarang.jpeg',
   },
-  {
-    name: 'Rashi Luthra',
-    role: 'Director, Marketing',
-    qualification: 'B.Com, MBA',
-    quote: 'Everyday is a chance to grow.',
-    image: '/team/rashi.jpeg',
-  },
+ 
 ];
 
 // export const TEST_SERIES_PACKAGES = [

@@ -79,7 +79,8 @@ export function TilesSection() {
                     </p>
                     <div className="mt-4 flex items-center justify-between">
                       <span className="font-heading font-bold text-lg text-navy">
-                        ₹{Number(tile.price).toLocaleString('en-IN')}
+                         {/* {tile?.price.length>0 ? `₹${Number(tile.price).toLocaleString('en-IN')}` : '' } */}
+                        {/* ₹{Number(tile.price).toLocaleString('en-IN')} */}
                       </span>
                       {/* <span className="inline-flex items-center gap-1 text-sm font-semibold text-orange-dark">
                         View Details <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-1" />

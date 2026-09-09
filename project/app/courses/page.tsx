@@ -254,7 +254,8 @@ export default function CoursesPage() {
                     <p className="mt-1.5 line-clamp-2 text-sm text-muted-foreground">{course.description}</p>
                     <div className="mt-4 flex flex-wrap items-center justify-between gap-2">
                       <span className="font-heading font-bold text-lg text-navy">
-                        ₹{course.price?.toLocaleString('en-IN')}
+                        {course?.price.length > 0 ? ` ₹${course.price?.toLocaleString('en-IN')}` : ''}
+                       
                       </span>
                       <span className="inline-flex items-center gap-1 text-sm font-semibold text-orange-dark">
                         View Details <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-1" />
