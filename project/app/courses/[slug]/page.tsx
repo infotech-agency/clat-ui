@@ -362,6 +362,7 @@ import {
   AccordionTrigger,
 } from '@/components/ui/accordion';
 import { Check, Clock, MapPin, Users, FileBarChart, BookOpen, GraduationCap, Briefcase, Wrench, ArrowRight } from 'lucide-react';
+import TestSeriesPage from '@/app/test-series/page';
 
 export async function generateMetadata({ params }: { params: { slug: string } }): Promise<Metadata> {
   const course = await getCourseBySlug(params.slug);
@@ -672,6 +673,10 @@ export default async function CourseDetailPage({ params }: { params: { slug: str
             </div>
           </div>
         </div>
+      </section>
+      <section>
+        <TestSeriesPage
+        />
       </section>
 
       {related.length > 0 && (

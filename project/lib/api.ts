@@ -209,7 +209,7 @@ import type {
 } from './types';
 
 const API_URL =
-  process.env.NEXT_PUBLIC_API_URL?.replace(/\/$/, '') || 'https://darkgreen-elk-605896.hostingersite.com';
+  process.env.NEXT_PUBLIC_API_URL?.replace(/\/$/, '') || 'https://api.clatscholars.com';
 
 async function apiFetch<T>(path: string, init?: RequestInit): Promise<T> {
   const res = await fetch(`${API_URL}${path}`, {

@@ -230,7 +230,7 @@ export function InquiryForm({ variant = 'inline', lockedCourse, compact = false 
             <SelectContent>
               {courses.length > 0 ? (
                 courses.map((c) => (
-                  <SelectItem key={c.name} value={c.name}>{c.name}</SelectItem>
+                  <SelectItem className='text-black' key={c.name} value={c.name}>{c.name}</SelectItem>
                 ))
               ) : (
                 <SelectItem value="general" disabled>Loading courses…</SelectItem>
@@ -242,7 +242,7 @@ export function InquiryForm({ variant = 'inline', lockedCourse, compact = false 
       {!compact && (
         <div className="space-y-1.5">
           <Label htmlFor={`msg-${variant}`} className="text-xs">Message (optional)</Label>
-          <Textarea id={`msg-${variant}`} value={message} onChange={(e) => setMessage(e.target.value)} rows={2} placeholder="Tell us about your goals" />
+          <Textarea className='text-black' id={`msg-${variant}`} value={message} onChange={(e) => setMessage(e.target.value)} rows={2} placeholder="Tell us about your goals" />
         </div>
       )}
       <Button type="submit" disabled={loading} className="btn-orange w-full">

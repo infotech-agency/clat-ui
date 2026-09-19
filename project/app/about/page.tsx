@@ -23,7 +23,7 @@ export default function AboutPage() {
     <>
       <PageHero
         kicker="About Us"
-        title="Building India\u2019s Next Generation of Legal Minds"
+          title="Building India’s Next Generation of Legal Minds"
         description="A Pravmis Edu initiative, CLAT Scholars was founded on the belief that every aspirant deserves personal attention, expert teaching, and a structured path to their dream NLU."
         breadcrumbs={[{ label: 'Home', href: '/' }, { label: 'About Us' }]}
       />

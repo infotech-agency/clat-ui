@@ -3,8 +3,8 @@ import type { FAQ } from './types';
 export const SITE = {
   name: 'CLAT Scholars',
   brand: 'Pravmis Edu',
-  phonePrimary: '+91-9810112345',
-  whatsapp: '919810112345',
+  phonePrimary: '+91-8588890201',
+  whatsapp: '918588890201',
   email: 'info@clatscholars.com',
   domain: 'https://www.clatscholars.com',
 };
