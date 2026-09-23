@@ -1,18 +1,21 @@
 /** @type {import('next').NextConfig} */
+
 const nextConfig = {
-   typescript: {
+  typescript: {
     ignoreBuildErrors: true,
   },
+
   eslint: {
     ignoreDuringBuilds: true,
   },
-  // images: { unoptimized: true },
-   images: {
+
+  images: {
     unoptimized: true,
+
     remotePatterns: [
       {
         protocol: "https",
-        hostname: "**", // sab domains allow, agar exact domain pata nahi
+        hostname: "lh3.googleusercontent.com",
       },
     ],
   },
