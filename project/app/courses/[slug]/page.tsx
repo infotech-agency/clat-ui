@@ -675,8 +675,7 @@ export default async function CourseDetailPage({ params }: { params: { slug: str
         </div>
       </section>
       <section>
-        <TestSeriesPage
-        />
+        <TestSeriesPage/>
       </section>
 
       {related.length > 0 && (
