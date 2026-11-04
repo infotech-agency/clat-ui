@@ -7,9 +7,9 @@ import { Check, Star } from 'lucide-react';
 import { cn } from '@/lib/utils';
 
 export const metadata: Metadata = {
-  title: 'Blossom Test Series',
+  title: 'CLAT & AILET Mock Test Series | Blossom by CLAT Scholars',
   description:
-    'Choose from four Blossom Test Series packages — Ultimate, Advanced, Essential, and Startup — with full-length mocks, sectional tests, and national ranking for CLAT & AILET.',
+    ' Prepare with Blossom CLAT & AILET mock tests, detailed video solutions and one-on-one performance reviews. Explore packages with 5 to 100 practice tests.',
   alternates: { canonical: 'https://www.clatscholars.com/test-series' },
 };
 

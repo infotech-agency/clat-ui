@@ -2,10 +2,10 @@ import type { Metadata } from 'next';
 import type { ReactNode } from 'react';
 
 export const metadata: Metadata = {
-  title: 'Student Results & NLU Selections',
+  title: 'CLAT Results & NLU Selections | CLAT Scholars Success Stories',
 
   description:
-    'Explore CLAT Scholars student results and selections in National Law Universities. See our students’ achievements in CLAT and AILET entrance exams.',
+    'Explore CLAT Scholars student success stories and selections at National Law Universities and leading law colleges across India. Meet our successful alumni.',
 
   alternates: {
     canonical: 'https://www.clatscholars.com/placements',

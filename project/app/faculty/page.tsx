@@ -5,9 +5,9 @@ import { FACULTY } from '@/lib/content';
 import { Scale } from 'lucide-react';
 
 export const metadata: Metadata = {
-  title: 'Our Faculty',
+  title: 'Meet Our CLAT & AILET Faculty | CLAT Scholars',
   description:
-    'Meet the advocate-faculty of CLAT Scholars — practising advocates and seasoned CLAT mentors who bring real legal reasoning into every classroom.',
+    'Meet the CLAT Scholars faculty for CLAT & AILET preparation. Explore their qualifications and expertise in legal reasoning, English, GK, maths and logic.',
   alternates: { canonical: 'https://www.clatscholars.com/faculty' },
 };
 

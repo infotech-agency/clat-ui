@@ -12,9 +12,9 @@ import * as Icons from 'lucide-react';
 import { Check, Target, Eye } from 'lucide-react';
 
 export const metadata: Metadata = {
-  title: 'About Us',
+  title: ' About CLAT Scholars | CLAT & AILET Coaching in Delhi NCR',
   description:
-    'CLAT Scholars is a Pravmis Edu initiative offering expert CLAT, AILET & law entrance coaching with personal mentorship, advocate faculty, and small batches across Noida, Indirapuram & Delhi.',
+    'Meet CLAT Scholars: advocate-led CLAT & AILET coaching with online, offline batches and personal mentoring. Explore our centres in Noida, Indirapuram and Karkardooma.',
   alternates: { canonical: 'https://www.clatscholars.com/about' },
 };
 

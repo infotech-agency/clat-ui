@@ -5,9 +5,9 @@ import { CENTRES, SITE } from '@/lib/content';
 import { MapPin, Phone, Mail, Facebook, Instagram, Linkedin, Navigation } from 'lucide-react';
 
 export const metadata: Metadata = {
-  title: 'Contact Us',
+  title: 'Contact CLAT Scholars | Noida, Indirapuram & Karkardooma Delhi Centres',
   description:
-    'Get in touch with CLAT Scholars. Find our centres in Noida, Indirapuram, and Karkardooma Delhi with phone numbers, addresses, and directions.',
+    'Contact CLAT Scholars for CLAT & AILET course enquiries and free counselling. Find phone numbers and centre addresses in Noida, Indirapuram and Karkardooma.',
   alternates: { canonical: 'https://www.clatscholars.com/contact' },
 };
 
@@ -74,14 +74,22 @@ export default function ContactPage() {
                       </div>
                     </div>
                     <div className="mt-3 overflow-hidden rounded-xl border border-border">
-                      <iframe
+                      {/* <iframe
                         title={`Map of ${centre.name}`}
                         src={`https://www.google.com/maps?q=${encodeURIComponent(centre.mapQuery)}&output=embed`}
                             // src={`${encodeURIComponent(centre.mapQuery)}&output=embed`}
                             // src={`https://www.google.com/maps?q=${encodeURIComponent(centre.mapQuery)}&output=embed`}
                         className="h-40 w-full"
                         loading="lazy"
-                      />
+                      /> */}
+                      <iframe
+  title={`Map of ${centre.name}`}
+  src={`https://www.google.com/maps?q=${encodeURIComponent(centre.embedQuery)}&output=embed`}
+  className="h-40 w-full"
+  loading="lazy"
+  referrerPolicy="no-referrer-when-downgrade"
+  allowFullScreen
+/>
                     </div>
                   </div>
                 );

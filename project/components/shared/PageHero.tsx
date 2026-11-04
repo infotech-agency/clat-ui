@@ -28,9 +28,9 @@ export function PageHero({ kicker, title, description, breadcrumbs }: PageHeroPr
           </nav>
         )}
         {kicker && <span className="section-kicker text-orange-light">{kicker}</span>}
-        <h1 className="mt-2 font-heading text-3xl font-extrabold text-white md:text-4xl lg:text-5xl text-balance">
+        <h2 className="mt-2 font-heading text-3xl font-extrabold text-white md:text-4xl lg:text-5xl text-balance">
           {title}
-        </h1>
+        </h2>
         <span className="section-underline mx-auto" />
         {description && (
           <p className="mx-auto mt-4 max-w-2xl text-white/70 md:text-lg">{description}</p>

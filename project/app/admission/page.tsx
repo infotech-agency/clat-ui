@@ -6,9 +6,9 @@ import { VideoTestimonials } from '@/components/home/VideoTestimonials';
 import { StatCounter } from '@/components/shared/StatCounter';
 
 export const metadata: Metadata = {
-  title: 'Admission Enquiry',
+  title: 'CLAT & AILET Coaching Admission | Apply to CLAT Scholars',
   description:
-    'Apply for admission to CLAT Scholars. Fill in your personal details, choose a course, and upload your documents to begin your CLAT preparation journey.',
+    'Apply for CLAT & AILET coaching at CLAT Scholars. Submit your admission enquiry for personal mentoring, online, offline batches and guidance from advocate-faculty.',
   alternates: { canonical: 'https://www.clatscholars.com/admission' },
 };
 

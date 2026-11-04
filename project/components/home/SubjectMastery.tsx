@@ -39,7 +39,10 @@ export function SubjectsMastery() {
   return (
     <section className="bg-white py-16 md:py-24">
       <div className="container mx-auto px-4">
-        <h2 className="text-center font-heading font-bold text-navy text-3xl md:text-4xl leading-tight">
+        <h1 className="text-center font-heading font-bold text-navy text-3xl md:text-4xl leading-tight">
+          Best Coaching for CLAT in Delhi with Personal Mentorship
+        </h1>
+        <h2 className="text-center my-6 font-bold text-navy text-xl md:text-4xl leading-tight">
           The Subjects We Help You Master
         </h2>
 

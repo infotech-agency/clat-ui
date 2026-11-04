@@ -2,10 +2,10 @@ import type { Metadata } from 'next';
 import type { ReactNode } from 'react';
 
 export const metadata: Metadata = {
-  title: 'CLAT & AILET Preparation Blog',
+  title: 'CLAT & AILET Preparation Tips & Exam Updates | CLAT Scholars',
 
   description:
-    'Read CLAT and AILET preparation tips, legal reasoning guides, study strategies and law entrance exam updates on the CLAT Scholars blog.',
+    'Read CLAT & AILET preparation tips, study strategies and exam updates from CLAT Scholars faculty. Find practical guidance for your law entrance preparation.',
 
   alternates: {
     canonical: 'https://www.clatscholars.com/blog',

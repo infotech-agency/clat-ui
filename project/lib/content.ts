@@ -9,36 +9,69 @@ export const SITE = {
   domain: 'https://www.clatscholars.com',
 };
 
+// export const CENTRES = [
+//   {
+//     name: 'Noida Centre',
+//     image:'https://lh3.googleusercontent.com/gps-cs-s/AHRPTWkx5x9Ts8wisdewGy6Sw6PKeO46gwubcScUETBWsqIvKm5WsJbQZQjtUWuav8deckF5TcgGfXuk8ODdEwv9M7VfqJaZ4purZYgv-4mrTM1wtBUnr0LfcoonLQqVrulwCb8idapzPaH9yvGv=s1360-w1360-h1020-rw',
+//     area: 'Sector 18, Noida',
+//     address:
+//       'Wave One, F20/15, opposite Radisson, Pocket G, Sector 18, Noida, Uttar Pradesh 201301 noida address',
+//     phone: '+91-85888 90203',
+//     phoneRaw: '9185888 90203',
+//     mapQuery: 'https://www.google.com/maps/place/CLAT+SCHOLARS/data=!4m2!3m1!1s0x0:0x4dedca7781f95d75?sa=X&ved=1t:2428&ictx=111',
+//   },
+//   {
+//     name: 'Indirapuram Centre',
+//     area: 'Indirapuram, Ghaziabad',
+//     image:'https://lh3.googleusercontent.com/gps-cs-s/AHRPTWmpbgJUlIJr2lISYeJnj-YXjoxdFDMNOcjcwdwEZRLLRpc0ycJT3iiU30tSOwBXZKrW0UsRULS1x5ohQT94pM9BnFdlhNkhyeojnZWBHodjgn-Yy6C975URc30mTOGfTa8AD4GWv6DsOWAg=s1360-w1360-h1020-rw',
+//     address:
+//       'Address: 1st Floor, 333, Shakti Khand III, Indirapuram, Ghaziabad, Uttar Pradesh 201014',
+//     phone: '+91-85888 90202',
+//     phoneRaw: '9185888 90202',
+//     mapQuery: 'https://www.google.com/maps/place/Best+CLAT+Coaching+in+Indirapuram+-+CLAT+SCHOLARS/data=!4m2!3m1!1s0x0:0xe0d3a6c45f09ffad?sa=X&ved=1t:2428&ictx=111&cshid=1787378978016681',
+//   },
+//   {
+//     name: 'Karkardooma Delhi Centre',
+//     area: 'Karkardooma, East Delhi',
+//     image:'https://lh3.googleusercontent.com/gps-cs-s/AHRPTWmRYFLoGdDJLnf6vO4EmJ3wwousZJHLeLkE3NhotSPU5YMOaMOdIJJQKjVVvDIFIJpEeCNsWLjrVk9t-b7HiUH3I6Uhk5XV0z1TCQ-yY6taxppeP8M_rBEsSogrA_XXqbofYQYL=s1360-w1360-h1020-rw',
+//     address:
+//       ' SF 23 Aditya Mega Mall CBD, near Cross River Mall, Karkardooma, Shahdara, Delhi, 110032',
+//     phone: '+91-85888 90201',
+//     phoneRaw: '9185888 90201',
+//     mapQuery: 'https://www.google.com/maps/place/CLAT+SCHOLARS/data=!4m2!3m1!1s0x0:0xc321e5c7554c4b1b?sa=X&ved=1t:2428&ictx=111',
+//   },
+// ];
+
 export const CENTRES = [
   {
     name: 'Noida Centre',
-    image:'https://lh3.googleusercontent.com/gps-cs-s/AHRPTWkx5x9Ts8wisdewGy6Sw6PKeO46gwubcScUETBWsqIvKm5WsJbQZQjtUWuav8deckF5TcgGfXuk8ODdEwv9M7VfqJaZ4purZYgv-4mrTM1wtBUnr0LfcoonLQqVrulwCb8idapzPaH9yvGv=s1360-w1360-h1020-rw',
+    image: 'https://lh3.googleusercontent.com/gps-cs-s/AHRPTWkx5x9Ts8wisdewGy6Sw6PKeO46gwubcScUETBWsqIvKm5WsJbQZQjtUWuav8deckF5TcgGfXuk8ODdEwv9M7VfqJaZ4purZYgv-4mrTM1wtBUnr0LfcoonLQqVrulwCb8idapzPaH9yvGv=s1360-w1360-h1020-rw',
     area: 'Sector 18, Noida',
-    address:
-      'Wave One, F20/15, opposite Radisson, Pocket G, Sector 18, Noida, Uttar Pradesh 201301 noida address',
+    address: 'Wave One, F20/15, opposite Radisson, Pocket G, Sector 18, Noida, Uttar Pradesh 201301',
     phone: '+91-85888 90203',
-    phoneRaw: '9185888 90203',
+    phoneRaw: '+918588890203',
     mapQuery: 'https://www.google.com/maps/place/CLAT+SCHOLARS/data=!4m2!3m1!1s0x0:0x4dedca7781f95d75?sa=X&ved=1t:2428&ictx=111',
+    embedQuery: 'CLAT Scholars, Wave One, F20/15, Pocket G, Sector 18, Noida, Uttar Pradesh 201301',
   },
   {
     name: 'Indirapuram Centre',
     area: 'Indirapuram, Ghaziabad',
-    image:'https://lh3.googleusercontent.com/gps-cs-s/AHRPTWmpbgJUlIJr2lISYeJnj-YXjoxdFDMNOcjcwdwEZRLLRpc0ycJT3iiU30tSOwBXZKrW0UsRULS1x5ohQT94pM9BnFdlhNkhyeojnZWBHodjgn-Yy6C975URc30mTOGfTa8AD4GWv6DsOWAg=s1360-w1360-h1020-rw',
-    address:
-      'Address: 1st Floor, 333, Shakti Khand III, Indirapuram, Ghaziabad, Uttar Pradesh 201014',
+    image: 'https://lh3.googleusercontent.com/gps-cs-s/AHRPTWmpbgJUlIJr2lISYeJnj-YXjoxdFDMNOcjcwdwEZRLLRpc0ycJT3iiU30tSOwBXZKrW0UsRULS1x5ohQT94pM9BnFdlhNkhyeojnZWBHodjgn-Yy6C975URc30mTOGfTa8AD4GWv6DsOWAg=s1360-w1360-h1020-rw',
+    address: '1st Floor, 333, Shakti Khand III, Indirapuram, Ghaziabad, Uttar Pradesh 201014',
     phone: '+91-85888 90202',
-    phoneRaw: '9185888 90202',
+    phoneRaw: '+918588890202',
     mapQuery: 'https://www.google.com/maps/place/Best+CLAT+Coaching+in+Indirapuram+-+CLAT+SCHOLARS/data=!4m2!3m1!1s0x0:0xe0d3a6c45f09ffad?sa=X&ved=1t:2428&ictx=111&cshid=1787378978016681',
+    embedQuery: 'CLAT Scholars, 333, Shakti Khand III, Indirapuram, Ghaziabad, Uttar Pradesh 201014',
   },
   {
     name: 'Karkardooma Delhi Centre',
     area: 'Karkardooma, East Delhi',
-    image:'https://lh3.googleusercontent.com/gps-cs-s/AHRPTWmRYFLoGdDJLnf6vO4EmJ3wwousZJHLeLkE3NhotSPU5YMOaMOdIJJQKjVVvDIFIJpEeCNsWLjrVk9t-b7HiUH3I6Uhk5XV0z1TCQ-yY6taxppeP8M_rBEsSogrA_XXqbofYQYL=s1360-w1360-h1020-rw',
-    address:
-      ' SF 23 Aditya Mega Mall CBD, near Cross River Mall, Karkardooma, Shahdara, Delhi, 110032',
+    image: 'https://lh3.googleusercontent.com/gps-cs-s/AHRPTWmRYFLoGdDJLnf6vO4EmJ3wwousZJHLeLkE3NhotSPU5YMOaMOdIJJQKjVVvDIFIJpEeCNsWLjrVk9t-b7HiUH3I6Uhk5XV0z1TCQ-yY6taxppeP8M_rBEsSogrA_XXqbofYQYL=s1360-w1360-h1020-rw',
+    address: 'SF 23 Aditya Mega Mall CBD, near Cross River Mall, Karkardooma, Shahdara, Delhi, 110032',
     phone: '+91-85888 90201',
-    phoneRaw: '9185888 90201',
+    phoneRaw: '+918588890201',
     mapQuery: 'https://www.google.com/maps/place/CLAT+SCHOLARS/data=!4m2!3m1!1s0x0:0xc321e5c7554c4b1b?sa=X&ved=1t:2428&ictx=111',
+    embedQuery: 'CLAT Scholars, SF 23, Aditya Mega Mall, Karkardooma, Shahdara, Delhi 110032',
   },
 ];
 
